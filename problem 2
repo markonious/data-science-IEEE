@@ -1,0 +1,6 @@
+word = input("enter the word ")
+result = ""
+for char in word:
+    if char.lower() not in ["a","e","o","u","i"]:
+       result += "."+ char.lower()
+print(result)
